@@ -150,7 +150,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](ssmodul3unguided1.png)
+> ![Screenshot bagian x](ssunguided1modul3.png)
 
 Program ini digunakan untuk menginput data beberapa mahasiswa, menghitung nilai akhirnya, dan menampilkannya ke layar. Setiap mahasiswa memiliki data berupa nama, NIM, nilai UTS, UAS, dan tugas yang disimpan dalam struktur Mahasiswa. Fungsi hitungNilaiAkhir() menghitung nilai akhir berdasarkan bobot tertentu, inputMahasiswa() digunakan untuk menerima input dari pengguna, dan tampilData() menampilkan seluruh data mahasiswa. Program utama mengatur jumlah mahasiswa, memanggil fungsi input, lalu menampilkan hasil akhirnya.
 ### Soal 2
@@ -216,7 +216,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](ssmodul3unguided2.png)
+> ![Screenshot bagian x](ssunguided2modul3.png)
 Program diatas ini adalah program C++ yang digunakan untuk mengelola data pelajaran dengan cara yang terstruktur. File pelajaran.h berisi struktur Pelajaran yang menyimpan nama dan kode mata pelajaran serta deklarasi fungsi untuk membuat dan menampilkan data pelajaran. File pelajaran.cpp berisi implementasi fungsi-fungsi tersebut, yaitu fungsi buatPelajaran() untuk membuat objek pelajaran baru dan tampilkanPelajaran() untuk menampilkan informasi pelajaran ke layar. File main.cpp berisi fungsi utama yang memanggil kedua fungsi tadi untuk membuat dan menampilkan data pelajaran. Program ini menunjukkan penggunaan struktur data dan pemisahan file header serta implementasi dalam C++.
 
 ### Soal 3
@@ -284,7 +284,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](ssmodul3unguided3.png)
+> ![Screenshot bagian x](ssunguided3modul3.png)
 
 Program ini adalah program C++ yang menunjukkan penggunaan function overloading dan template untuk menukar nilai. Fungsi tampilArray menampilkan isi array 3x3 ke layar. Fungsi tukar adalah template yang bisa menukar dua nilai apa pun, termasuk integer atau elemen array, dengan menggunakan referensi. Fungsi tukarElemen menukar elemen tertentu antara dua array 3x3 dengan memanggil tukar. Di main(), program membuat dua array A dan B, menampilkan keduanya, menukar elemen [1][1] dari kedua array, lalu menampilkan hasilnya. Program juga menukar dua variabel integer x dan y menggunakan tukar. Program ini mencontohkan manipulasi array, pointer/referensi, dan penggunaan template untuk generalisasi fungsi swap.
 
